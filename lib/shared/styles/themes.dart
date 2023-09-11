@@ -26,7 +26,6 @@ ThemeData dartkTheme = ThemeData(
       primarySwatch:MaterialColor(0xFF9C0B0B, color),
 
       appBarTheme: AppBarTheme(
-        backwardsCompatibility: false,
         titleSpacing: 20.0,
         backgroundColor: defaultBackGroundColor,
         elevation: 1.0,
@@ -79,7 +78,6 @@ ThemeData ligthTheme = ThemeData(
         scaffoldBackgroundColor: whiteColor,
         appBarTheme: AppBarTheme(
 
-          backwardsCompatibility: false,
           titleSpacing: 20.0,
           backgroundColor: whiteColor,
           elevation: 1.0,

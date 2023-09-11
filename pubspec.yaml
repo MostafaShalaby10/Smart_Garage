@@ -45,10 +45,10 @@ dependencies:
   smooth_page_indicator: ^1.0.0+2
   flutter_bloc: ^8.1.1
   bloc: ^8.1.0
-  intl: ^0.17.0
+  intl: ^0.18.0
   dio: ^4.0.6
   fluttertoast: ^8.0.9
-  conditional_builder: ^1.0.2
+  conditional_builder_null_safety: ^0.0.6
   shared_preferences: ^2.0.15
   carousel_slider: ^4.1.1
   flutter_rating_bar: ^4.0.1
