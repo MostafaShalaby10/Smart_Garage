@@ -12,7 +12,8 @@ import 'package:untitled/pages/getstarted.dart';
 import 'package:untitled/pages/login.dart';
 import 'package:untitled/sharedprefrences/sharedprefrences.dart';
 import 'package:untitled/user/homepage.dart';
-
+// Import the generated file
+import 'firebase_options.dart';
 
 
 void main() async {
@@ -22,7 +23,9 @@ void main() async {
   ));
   WidgetsFlutterBinding.ensureInitialized();
   await dio.init();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   await sharedprefs.init();
   bool isgetstarted = sharedprefs.getdata(key: "getstarted");
   bool islogin = sharedprefs.getdata(key: "login");
